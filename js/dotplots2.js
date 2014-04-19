@@ -95,7 +95,7 @@ svg.append("text")
 	
 	//Aslabels X
 	svg.append("text")
-		.text("None")
+		.text("Very low")
 		.attr("x", 10)
 		.attr("y", 350)
 		.attr("fill", "grey")
@@ -167,7 +167,7 @@ svg.append("text")
 		var xcoord = 0;
 		switch (value)
 			{
-				case "Very low":
+				case "None":
   					xcoord = 100;
   					break;
 				case "Low":
