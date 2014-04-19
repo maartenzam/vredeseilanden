@@ -60,7 +60,7 @@ d3.csv("data/sust_10_13.csv", function(data) {
 	.attr("class", "axislabel");*/
 	
 	//ALT: labelling
-	svg.append("text")
+	/*svg.append("text")
 	.text("Very low")
 	.attr("x", 100)
 	.attr("y", 420)
@@ -90,7 +90,7 @@ d3.csv("data/sust_10_13.csv", function(data) {
 	.attr("y", 420)
 	.attr("fill", "black")
 	.style("font-size", "20px")
-	.attr("class", "axislabel");
+	.attr("class", "axislabel");*/
 	//ALT
 	
 	
