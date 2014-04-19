@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   	<meta charset='utf-8'> 
+    <title>Business capacities of farmer organizations</title>
+    <script src="js/d3.v3.js" charset="utf-8"></script>
+    
+	<link rel="stylesheet" type="text/css" href="css/dotplots.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+<body>
+<div class="container">
+<h2>Business capacities of farmer organizations</h2>
+<div class="row">
+	<div id="changedata" class="col-md-6">
+	<h3>Select data</h3>
+	<select id="indicatorselect" class="form-control" onchange="changetoind(this)">
+        <option value="">- Select a key capacity -</option>
+		<option value="Cap1">Group Management skills</option>
+		<option value="Cap2">Business Management skills</option>
+		<option value="Cap3">Marketing skills</option>
+        <option value="Cap4">Sustainable natural resources management skills</option>
+		<option value="Cap5">Networking skills</option>
+    </select>
+	<button onclick="movebubbels()" class="btn btn-default btn-block">2013 >></button>
+	</div>	
+		
+	<div id="highlight" class="col-md-6">
+	<h3>Highlight chains</h3>
+	<select id="regionselect" class="form-control" onchange="filter(this)">
+        <option value="">- Select a region -</option>
+        <option value="Asia">Asia</option>
+        <option value="East-Africa">East-Africa</option>
+        <option value="Latin-America">Latin-America</option>
+        <option value="West-Africa">West-Africa</option>
+    </select>
+		
+	<select id="countryselect" class="form-control" onchange="filter(this)">
+        <option value="">- Select a country -</option>
+        <option value="Benin">Benin</option>
+		<option value="Burkina">Burkina Faso</option>
+		<option value="Congo">Congo</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="Gambia">Gambia</option>
+		<option value="Honduras">Honduras</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Nicaragua">Nicaragua</option>
+        <option value="Niger">Niger</option>
+		<option value="Senegal">Senegal</option>
+        <option value="Peru">Peru</option>
+		<option value="Tanzania">Tanzania</option>
+		<option value="Togo">Togo</option>
+        <option value="Uganda">Uganda</option>
+		<option value="Vietnam">Vietnam</option></option>
+    </select>
+	
+	<select id="commodityselect" class="form-control" onchange="filter(this)">
+        <option value="">- Select a commodity -</option>
+		<option value="Banana">Banana</option>
+		<option value="Beans">Beans</option>
+        <option value="Cacao">Cacao</option>
+		<option value="Cashew">Cashew</option>
+		<option value="Cassava">Cassava</option>
+		<option value="Coffee">Coffee</option>
+        <option value="Fonio">Fonio</option>
+		<option value="Groundnuts">Groundnuts & mais</option>
+		<option value="Maize">Maize</option>
+		<option value="Niébé">Niébé</option>
+        <option value="Sesam">Sesam</option>
+		<option value="Quinoa">Quinoa</option>
+        <option value="Rice">Rice</option>
+		<option value="Sugar">Sugar</option>
+		<option value="Tea">Tea</option>
+        <option value="Vegetables">Vegetables</option>
+    </select>
+	</div>
+	</div>
+	
+<div id="container" style="height: 800px; width: 800px; text-align: center; ">
+<div id="graphtitle"><h3><span id="indicatortitle">Group Management skills</span> in <span id="yeartitle">2010</span></h3></div>
+<div id="graphsubtitlecontainer"><p id="graphsubtitle">Is the farmer organisation a member-based organisation? With a democratically chosen management and decision-making body?</p></div>
+<div id="textdata" style="float: right;"></div>
+<div id="vis"></div>
+</div>
+
+<script type="text/javascript" src="js/dotplots2.js"></script>
+
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+Name,Chain,Country,Region,Commodity,Cap110,Cap113,Cap210,Cap213,Cap310,Cap313,Cap410,Cap413,Cap510,Cap513
+Banana in Senegal,1Sen_ban,Senegal,West-Africa,Banana,Low,Medium,Low,Medium,Low,Low,Medium,Medium,Low,Medium
+Fonio in Senegal,2Sen_fon,Senegal,West-Africa,Fonio,Medium,Medium,None,Medium,Medium,Medium,None,None,None,Medium
+Sesam in Senegal,3Sen_ses,Senegal,West-Africa,Sesam,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Low,Medium
+Sesam in Gambia,4Gam_ses,Gambia,West-Africa,Sesam,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Low,Medium
+Coffee in Ecuador,5Ecu_cof,Ecuador,Latin-America,Coffee,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Low,Medium
+Banana in Ecuador,6Ecu_ban,Ecuador,Latin-America,Banana,Medium,Medium,Low,Medium,Low,Low,Low,Medium,Medium,High
+Quinoa in Peru,7Per_qui,Peru,Latin-America,Quinoa,Low,Medium,Low,Low,Low,Medium,Medium,High,Low,Medium
+Vegetables in Ecuador,8Ecu_veg,Ecuador,Latin-America,Vegetables,Low,Low,Low,Low,Low,Medium,Medium,High,Low,Medium
+Coffee in Peru,9Per_cof,Peru,Latin-America,Coffee,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Low,Medium
+Vegetables in Honduras,10Hon_veg,Honduras,Latin-America,Vegetables,None,Low,None,Medium,None,Medium,Low,Medium,None,Medium
+Banana in Nicaragua,11Nic_ban,Nicaragua,Latin-America,Banana,Low,Medium,None,Medium,None,Low,Low,Medium,Low,Medium
+Sugar in Nicaragua,12Nic-sug,Nicaragua,Latin-America,Sugar,None,Low,None,Low,None,Low,None,Medium,None,Medium
+Cashew 1 in Honduras,13Hon_cas,Honduras,Latin-America,Cashew,Low,Medium,Low,Medium,None,Low,Low,Medium,Low,Medium
+Cashew 2 in Honduras,14Hon_cas,Honduras,Latin-America,Cashew,Low,Medium,Low,Medium,None,Low,Low,Medium,Low,Medium
+Beans in Nicaragua,15Nic_bea,Nicaragua,Latin-America,Beans,Medium,High,Medium,High,Low,Medium,Low,Medium,Medium,Medium
+Banana in Nicaragua,16Nic_ban,Nicaragua,Latin-America,Banana,None,Low,None,Low,None,Low,Low,Medium,None,Low
+Cassava in Tanzania,17Tan_cas,Tanzania,East-Africa,Cassava,Low,Low,None,Medium,None,Medium,None,Medium,None,Medium
+Groundnuts and mais in Uganda,18Uga_gro,Uganda,East-Africa,Groundnuts & mais,Low,Medium,Low,Low,Low,Medium,Low,Low,Low,Medium
+Rice in Congo (Bapere),20Con_ric,Congo,East-Africa,Rice,None,Low,Low,Low,None,None,None,Low,Low,Low
+Rice in Congo (Beni-Mbau),21Con_ric,Congo,East-Africa,Rice,Low,Low,Low,Medium,Low,Medium,Low,Medium,Low,Medium
+Rice in Indonesia (Java),22Ind_ric,Indonesia,Asia,Rice,Low,Medium,Low,Low,Low,Medium,Low,Medium,Low,Medium
+Rice in Indonesia (Flores),23Ind_ric,Indonesia,Asia,Rice,Low,Medium,None,Low,Low,Medium,Low,Medium,Low,Medium
+Cacao in Indonesia (Flores),24Ind_cac,Indonesia,Asia,Cacao,Low,Medium,None,Low,Low,Medium,Low,Medium,Low,Medium
+Cacao in Indonesia (Sulawesi),25Ind_cac,Indonesia,Asia,Cacao,Low,Medium,None,Low,Low,Medium,None,Medium,Low,Low
+Coffee in Indonesia (Sulawesi),26Ind_cof,Indonesia,Asia,Coffee,None,Medium,None,Low,None,Medium,None,Medium,None,Low
+Coffee in Indonesia (Sulawesi),27Ind_cof,Indonesia,Asia,Coffee,None,Low,None,Low,None,Medium,None,Medium,None,Low
+Coffee in Indonesia (Flores),28Ind_cof,Indonesia,Asia,Coffee,Low,Medium,None,Low,None,Medium,Low,Medium,Medium,Medium
+Tea in Vietnam,29Vie_tea,Vietnam,Asia,Tea,Low,Medium,None,Low,None,Low,Low,Medium,None,Medium
+Rice in Vietnam,30Vie_ric,Vietnam,Asia,Rice,None,Low,None,Low,None,Low,None,Low,None,Low
+Vegetables in Vietnam (Viet Tri),31Vie_veg,Vietnam,Asia,Vegetables,Low,None,None,Low,None,Low,Low,Medium,None,Medium
+Vegetables in Vietnam (Lang Son),32Vie_veg,Vietnam,Asia,Vegetables,Low,None,None,None,None,Low,Low,Medium,None,Low
+Rice in Benin,33Ben_ric,Benin,West-Africa,Rice,Low,Medium,Low,High,Low,Medium,None,Medium,Low,Medium
+Maize in Togo,34Tog_mai,Togo,West-Africa,Maize,Low,Low,Low,Low,None,Low,Low,Medium,None,Low
+Niébé in Burkina Faso,35Bur_nie,Burkina Faso,West-Africa,Niébé,Low,High,None,Medium,None,High,None,Medium,Low,High
+Rice in Niger,36Nig_ric,Niger,West-Africa,Rice,None,Low,None,Low,None,Medium,Low,Medium,Low,Medium
+Rice in Niger,37Nig_ric,Niger,West-Africa,Rice,None,Low,None,Low,None,Low,None,Low,None,Low
+Rice in Burkina Faso,38Bur_ric,Burkina Faso,West-Africa,Rice,Low,High,None,Medium,None,Low,None,Medium,Low,High

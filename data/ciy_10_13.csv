@@ -1,0 +1,31 @@
+Name,Chain,Country,Region,Commodity,Number,CIY2010,CIY2013
+Banana in Senegal,1Sen_ban,Senegal,West-Africa,Banana,1,52,64
+Fonio in Senegal,2Sen_fon,Senegal,West-Africa,Fonio,2,17,9
+Sesam in Senegal,3Sen_ses,Senegal,West-Africa,Sesam,3,20,17
+Sesam in Gambia,4Gam_ses,Gambia,West-Africa,Sesam,4,20,17
+Coffee in Ecuador,5Ecu_cof,Ecuador,Latin-America,Coffee,5,27.4,26.4
+Banana in Ecuador,6Ecu_ban,Ecuador,Latin-America,Banana,6,22.19,14
+Quinoa in Peru,7Per_qui,Peru,Latin-America,Quinoa,7,65,44.5
+Vegetables in Ecuador,8Ecu_veg,Ecuador,Latin-America,Vegetables,8,8,14
+Coffee in Peru,9Per_cof,Peru,Latin-America,Coffee,9,90,63
+Vegetables in Honduras,10Hon_veg,Honduras,Latin-America,Vegetables,10,55,55
+Banana in Nicaragua,11Nic_ban,Nicaragua,Latin-America,Banana,11,41,42.5
+Sugar in Nicaragua,12Nic-sug,Nicaragua,Latin-America,Sugar,12,33,42.5
+Cashew 1 in Honduras,13Hon_cas,Honduras,Latin-America,Cashew,13,44,50
+Cashew 2 in Honduras,14Hon_cas,Honduras,Latin-America,Cashew,14,44,55
+Beans in Nicaragua,15Nic_bea,Nicaragua,Latin-America,Beans,15,8,9
+Banana in Nicaragua,16Nic_ban,Nicaragua,Latin-America,Banana,16,82.5,83
+Cassava in Tanzania,17Tan_cas,Tanzania,East-Africa,Cassava,17,50,48.5
+Rice in Congo (Bapere),20Con_ric,Congo,East-Africa,Rice,19,30,36.25
+Rice in Congo (Beni-Mbau),21Con_ric,Congo,East-Africa,Rice,20,50,28.7
+Rice in Indonesia (Java),22Ind_ric,Indonesia,Asia,Rice,21,36,50
+Rice in Indonesia (Flores),23Ind_ric,Indonesia,Asia,Rice,22,36,63
+Cacao in Indonesia (Flores),24Ind_cac,Indonesia,Asia,Cacao,23,25,30.5
+Coffee in Indonesia (Sulawesi),26Ind_cof,Indonesia,Asia,Coffee,25,20,35
+Coffee in Indonesia (Flores),28Ind_cof,Indonesia,Asia,Coffee,27,29,28
+Tea in Vietnam,29Vie_tea,Vietnam,Asia,Tea,28,33.7,37
+Rice in Vietnam,30Vie_ric,Vietnam,Asia,Rice,29,5.4,10
+Vegetables in Vietnam (Lang Son),32Vie_veg,Vietnam,Asia,Vegetables,31,51,60
+Rice in Benin,33Ben_ric,Benin,West-Africa,Rice,32,15,20
+Maize in Togo,34Tog_mai,Togo,West-Africa,Maize,33,65.3,93.63
+Rice in Niger,36Nig_ric,Niger,West-Africa,Rice,35,15,44.4

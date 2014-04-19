@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   	<meta charset='utf-8'> 
+    <title>Contribution of crop to the total income</title>
+    <script src="js/d3.v3.js" charset="utf-8"></script>
+	 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+<body>
+<div class="container">
+<h2>Contribution of crop to the total income</h2>
+	<h4>How much of its total income does the farmer derive from this particular crop?</h4>
+<div id="container" style="height: 800px; width: 600px;">
+	<div id="text" style="width: 400px;"><p>Select a region or a commodity to highlight chains. Hover over a line to see the data of a chain.</p></div>
+<div id="filters">
+	<select id="regionselect" onchange="filter(this)">
+        <option value="">- Select a region -</option>
+        <option value="Asia">Asia</option>
+        <option value="East-Africa">East-Africa</option>
+		<option value="Latin-America">Latin-America</option>
+        <option value="West-Africa">West-Africa</option>
+    </select>
+	
+	<select id="countryselect" onchange="filter(this)">
+        <option value="">- Select a country -</option>
+        <option value="Benin">Benin</option>
+		<option value="Congo">Congo</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="Gambia">Gambia</option>
+		<option value="Honduras">Honduras</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Nicaragua">Nicaragua</option>
+        <option value="Niger">Niger</option>
+		<option value="Senegal">Senegal</option>
+        <option value="Peru">Peru</option>
+		<option value="Tanzania">Tanzania</option>
+		<option value="Togo">Togo</option>
+        <option value="Uganda">Uganda</option>
+		<option value="Vietnam">Vietnam</option></option>
+    </select>
+	
+	<select id="commodityselect" onchange="filter(this)">
+        <option value="">- Select a commodity -</option>
+		<option value="Banana">Banana</option>
+		<option value="Beans">Beans</option>
+        <option value="Cacao">Cacao</option>
+		<option value="Cashew">Cashew</option>
+		<option value="Cassava">Cassava</option>
+		<option value="Coffee">Coffee</option>
+        <option value="Fonio">Fonio</option>
+		<option value="Maize">Maize</option>
+        <option value="Sesam">Sesam</option>
+		<option value="Quinoa">Quinoa</option>
+        <option value="Rice">Rice</option>
+		<option value="Sugar">Sugar</option>
+		<option value="Tea">Tea</option>
+        <option value="Vegetables">Vegetables</option>
+    </select>
+</div>
+<br />
+	
+<div id="vis"  style="float: left;"></div>
+<div id="textdata" style="float: right;"></div>
+</div>
+
+<script type="text/javascript" src="js/slopegraph2.js"></script>
+
+</script>
+</div>
+</body>
+</html>
