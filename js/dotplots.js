@@ -1,4 +1,4 @@
-var w = 800;
+var w = 600;
 var h = 500;
 var margin = 10;
 var	margintop = 30;
