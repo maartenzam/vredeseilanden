@@ -200,7 +200,7 @@ d3.csv("data/sust_10_13.csv", function(data) {
 		.enter()
 		.append("circle");
 
-	circles10.attr("cx", function(d) { return 1.5*val2xcoord10(d[indyear]) + (Math.random() - 0.5) * 65})
+	circles10.attr("cx", function(d) { return 300 + (Math.random() - 0.5) * 200})
 		//ORG
 		//.attr("cy", function(d) { return 450 - val2xcoord10(d[indyear]) + (Math.random() - 0.5) * 65})
 		//ALT
@@ -378,7 +378,7 @@ function changetoind(indicator) {
 	d3.selectAll("circle")
 		.transition()
 				.duration(3000)
-				.attr("cx", function(d) { return 1.5*val2xcoord10(d[indsel + "10"]) + (Math.random() - 0.5) * 65})
+				.attr("cx", function(d) { return 300 + (Math.random() - 0.5) * 200})
 				.attr("cy", function(d) { return 350 - val2xcoord10(d[indyear]) + val2xcoord10(d[indsel + "10"]) + (Math.random() - 0.5) * 65});
 				//.attr("cy", function(d) { return 450 - val2xcoord10(d[indyear]) + (Math.random() - 0.5) * 65});
 	}
