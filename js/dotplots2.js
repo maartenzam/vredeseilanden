@@ -167,7 +167,7 @@ svg.append("text")
 		var xcoord = 0;
 		switch (value)
 			{
-				case "None":
+				case "Very low":
   					xcoord = 100;
   					break;
 				case "Low":
