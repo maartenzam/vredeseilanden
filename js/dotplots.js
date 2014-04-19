@@ -226,10 +226,10 @@ d3.csv("data/sust_10_13.csv", function(data) {
 		.attr("id", function(d) {return "text" + d["Chain"]})
 		.html(function(d) {
 			if (indsel == d["Quoteind"]){
-			return "<h3>" + d["Name"] + "</h3><p>From " + d[indsel + "10"] + " in 2010 to " + d[indsel + "13"] + " in 2013</p><p><em>" + d["Quote"] + "</em></p>";
+			return "<h3>" + d["Name"] + "</h3><p><em>" + d["Quote"] + "</em></p>";
 			}
 			else {
-			return "<h3>" + d["Name"] + "</h3><p>From " + d[indsel + "10"] + " in 2010 to " + d[indsel + "13"] + " in 2013</p>";
+			return "<h3>" + d["Name"] + "</h3>";
 			}
 		})
 		.style("visibility", "hidden");
@@ -397,10 +397,10 @@ function changetoind(indicator) {
 	d3.selectAll(".datatext")
 		.html(function(d) {
 			if (indsel == d["Quoteind"]){
-			return "<h3>" + d["Name"] + "</h3><p>From " + d[indsel + "10"] + " in 2010 to " + d[indsel + "13"] + " in 2013</p><p><em>" + d["Quote"] + "</em></p>";
+			return "<h3>" + d["Name"] + "</h3><p><em>" + d["Quote"] + "</em></p>";
 			}
 			else {
-			return "<h3>" + d["Name"] + "</h3><p>From " + d[indsel + "10"] + " in 2010 to " + d[indsel + "13"] + " in 2013</p>";
+			return "<h3>" + d["Name"] + "</h3>";
 			}
 		});
 }
